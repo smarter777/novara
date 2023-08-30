@@ -1,0 +1,21 @@
+
+
+.first-div {
+  background-color: #ff6347;
+  transform: translateZ(-200px) scale(1.2);
+  transition: transform 1s ease-out;
+}
+
+.second-div {
+  background-color: #90ee90;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.zoom-out .first-div {
+  transform: translateZ(-1000px) scale(1.5);
+}
+
+.zoom-out .second-div {
+  opacity: 1;
+}
